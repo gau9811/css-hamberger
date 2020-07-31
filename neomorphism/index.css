@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3a6ee8;
+}
+
+.container {
+  margin: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+  .new {
+    height: 300px;
+    width: 300px;
+    background: #3a6ee8;
+    box-shadow: -3px -3px 5px #ffffff70, 3px 3px 15px #00000070;
+    border-radius: 25px;
+  }
